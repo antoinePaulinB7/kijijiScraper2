@@ -15,10 +15,6 @@ const lookup = () => {
 };
 
 const callback = ({data, $, body, response}) => {
-  console.log(`Status Code: ${response.statusCode}`);
-  // console.log(data);
-  // console.log(body);
-
   $('.search-item').each((index, element) => {
     let $element = $(element);
 
